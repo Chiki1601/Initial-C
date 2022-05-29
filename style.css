@@ -1,0 +1,116 @@
+body {
+  background-color: #323848;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes wiggle-2 {
+  0% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(4deg);
+  }
+}
+#flower1 {
+  transform-origin: 30% 40%;
+  -webkit-animation: wiggle 10s infinite;
+  -moz-animation: wiggle 10s infinite;
+  animation: wiggle 10s infinite;
+}
+
+#flower2 path:nth-child(1) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 4s infinite;
+  -moz-animation: wiggle-2 2.25s infinite;
+  animation: wiggle-2 3.75s infinite;
+}
+
+#flower2 path:nth-child(2) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 3.75s infinite;
+  -moz-animation: wiggle-2 3s infinite;
+  animation: wiggle-2 3.5s infinite;
+}
+
+#flower2 path:nth-child(3) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 2.75s infinite;
+  -moz-animation: wiggle-2 3.25s infinite;
+  animation: wiggle-2 4.5s infinite;
+}
+
+#flower2 path:nth-child(4) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 2.5s infinite;
+  -moz-animation: wiggle-2 4.25s infinite;
+  animation: wiggle-2 2.5s infinite;
+}
+
+#flower2 path:nth-child(5) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 4.5s infinite;
+  -moz-animation: wiggle-2 4.25s infinite;
+  animation: wiggle-2 3.5s infinite;
+}
+
+#flower2 path:nth-child(6) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 2.25s infinite;
+  -moz-animation: wiggle-2 4.25s infinite;
+  animation: wiggle-2 4.25s infinite;
+}
+
+#flower2 path:nth-child(7) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 4.25s infinite;
+  -moz-animation: wiggle-2 4.5s infinite;
+  animation: wiggle-2 4s infinite;
+}
+
+#flower2 path:nth-child(8) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 2.75s infinite;
+  -moz-animation: wiggle-2 4s infinite;
+  animation: wiggle-2 4.25s infinite;
+}
+
+#flower2 path:nth-child(9) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 4s infinite;
+  -moz-animation: wiggle-2 2.5s infinite;
+  animation: wiggle-2 4.25s infinite;
+}
+
+#flower2 path:nth-child(10) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 3.5s infinite;
+  -moz-animation: wiggle-2 2.75s infinite;
+  animation: wiggle-2 2.75s infinite;
+}
+
+#flower2 path:nth-child(11) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 3s infinite;
+  -moz-animation: wiggle-2 3.75s infinite;
+  animation: wiggle-2 4.5s infinite;
+}
+
+#flower2 path:nth-child(12) {
+  transform-origin: 40% 40%;
+  -webkit-animation: wiggle-2 4.25s infinite;
+  -moz-animation: wiggle-2 2.25s infinite;
+  animation: wiggle-2 4.5s infinite;
+}
